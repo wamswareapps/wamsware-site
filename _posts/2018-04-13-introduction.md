@@ -14,7 +14,7 @@ categories: [cat01, cat02]
 
 # Summary
 
-After many years of learning and building "home baked" projects, I finally decided to start capturing my lessons learned and resulting software products in a more controlled and sustainable environment under the banner of "Wamsware".  Wamsware is essentially an intential perpetual work in progress emphasizing quality and maximum community benefit without the typical time, budget and resource constraints that typically characterize corporate software projects.
+After many years of learning and building "home baked" projects, I finally decided to start capturing my lessons learned and resulting software products in a more controlled and sustainable environment under the banner of "Wamsware".  Wamsware is essentially an intentionally perpetual work in progress emphasizing quality and maximum community benefit without the typical time, budget and resource constraints that typically characterize corporate software projects.
 
 # About Me
 
