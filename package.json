@@ -1,0 +1,14 @@
+{
+  "name": "Wamsware",
+  "version": "1.0.0",
+  "description": "Purposeful Software Excursions",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "magnific-popup": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/wamswareapps/wamsware-site.github.io#readme"
+}
