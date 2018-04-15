@@ -11,7 +11,7 @@ assets:
 logo: logo.png
 discus_shortname: Wamsware
 email: bsmfsm@gmail.com
-url: "http://wamsware.com"
+url: "http://www.wamsware.com"
 search: true
 share: true
 comments: true
@@ -75,8 +75,8 @@ exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 slugify: "pretty"
 
 
-# Analytics and webmaster tools stuff goes here
-google_analytics:   UA-xxxxxxxx-x
-google_verify:      
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
+# # Analytics and webmaster tools stuff goes here
+# google_analytics:   UA-xxxxxxxx-x
+# google_verify:      
+# # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+# bing_verify:         
