@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Introduction
-subtitle: The Wamsware Story
+title: Introduction to Wamsware
+subtitle: The Story
 date:       2018-04-13 7:30:00
 author:     "James Walmsley"
 header-img: "assets/owner/blog/header/post-bg-01.jpg"
 thumbnail: /assets/owner/blog/thumbs/thumb01.png
-tags: [tag-name-one, tag-name-two]
-categories: [cat01, cat02]
+tags: [wamsware-intro]
+categories: [introduction]
 ---
 
 > The adventure begins

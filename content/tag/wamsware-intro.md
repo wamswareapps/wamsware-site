@@ -1,6 +1,6 @@
 ---
 layout: "content_by_tag"
-tag: "tag-name-two"
-permalink: "/content/tag/tag-name-two/"
+tag: "wamsware-intro"
+permalink: "/content/tag/wamsware-intro/"
 header-img: "assets/owner/hero/archive-bg.jpg"
 ---
