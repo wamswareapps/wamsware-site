@@ -5,7 +5,7 @@ subtitle: The Story
 date:       2018-04-13 7:30:00
 author:     "James Walmsley"
 header-img: "assets/owner/blog/header/post-bg-01.jpg"
-thumbnail: /assets/owner/blog/thumbs/thumb01.png
+thumbnail: /assets/owner/blog/thumbs/thumbs00.png
 tags: [wamsware-intro]
 categories: [introduction]
 ---
