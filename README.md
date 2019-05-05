@@ -1,1 +1,1 @@
-# Wamsware - Purposeful Software Expeditions 
+# Wamsware LLC - Software for you
