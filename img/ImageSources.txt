@@ -1,0 +1,8 @@
+projects.jpg
+
+Image Source: https://pixabay.com/photos/coffee-pen-notebook-caffeine-cup-2306471/
+Image License: https://pixabay.com/service/license/
+
+products.jpg
+Image Source: https://pixabay.com/illustrations/monitor-binary-binary-system-1307227/
+Image License: https://pixabay.com/service/license/
