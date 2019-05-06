@@ -51,10 +51,40 @@
     font-size: 16px; 
 }
 
+/*------Slider------*/
 #headerSlider img {
 
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
     max-height: 800px;
     
-    }
+}
+
+#slider
+{
+    width: 100%
+}
+.carousel-caption
+{
+    top: 0%;
+    transform: translateY(0%);
+    bottom: initial!important
+}
+
+/*------About------*/
+#about
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+#about .btn
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+.about-content
+{
+    padding-top: 20px;
+}
