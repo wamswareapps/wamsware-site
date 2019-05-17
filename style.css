@@ -52,17 +52,13 @@
 }
 
 /*------Slider------*/
-#headerSlider img {
-
+#headerSlider img 
+{
     width: 100%;
     height: auto;
     max-height: 800px;
-    
 }
-.img-fluid {
-    max-width: 100%;
-    height: auto;
-}
+ 
 
 #slider
 {

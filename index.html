@@ -1,15 +1,39 @@
+<!-- Use HTML5 doctype to support Bootstrap -->
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
  
   <head>
     
+    <meta charset="utf-8">
+
+    <!-- Ensure proper rendering and touch zooming 
+    
+      The width=device-width part sets the width of the page to follow the screen-width of the device (which will vary depending on the device).
+      The initial-scale=1 part sets the initial zoom level when the page is first loaded by the browser.
+
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="canonical" href="https://wamsware.com"/>
     <title>Wamsware LLC</title>
+
+    <!-- Locally defined stylesheets-->
     <link rel="stylesheet" href="style.css"/>
+
+    <!-- Boostrap: Minified stylesheets -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- FontAwsome: Minified stylessheets --></FontAwsome:>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- JQuery: Minified Javascript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+
+    <!-- Popper: Minified Javascript-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Boostrap: CSS and Javascript from Content Delivery Network (CDN) -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     
   </head>
@@ -48,6 +72,10 @@
          </ol>
          <div class="carousel-inner">
            <div class="carousel-item active">
+
+            <!--  img-fluid:  Makes image responsive(Boostrap 4)
+                  d-block:    
+            -->
              <img class="d-block img-fluid" src="https://www.wamsware.com/img/products.jpg">
              <div class="carousel-caption">
                  <h1>PRODUCTS</h1>
