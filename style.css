@@ -14,10 +14,10 @@
     z-index: 10;
 }
 
-.navbar-brand img
+.navbar-brand > img
 {
-    height: 20px;
-    padding-left: 5px;
+    height: 60px;
+    padding-left: 0px;
 }
 
 .navbar-nav li
