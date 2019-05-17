@@ -14,7 +14,7 @@
     z-index: 10;
 }
 
-.navbar-brand > img
+#navbar-brand img
 {
     height: 60px;
     padding-left: 0px;
