@@ -1,128 +1,312 @@
-<!-- Use HTML5 doctype to support Bootstrap -->
 <!DOCTYPE html>
+<html>
 
-<html lang="en">
- 
-  <head>
-    
+<head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Wamsware</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/custom_styles.css">
+</head>
 
-    <!-- Ensure proper rendering and touch zooming 
-    
-      The width=device-width part sets the width of the page to follow the screen-width of the device (which will vary depending on the device).
-      The initial-scale=1 part sets the initial zoom level when the page is first loaded by the browser.
-
-    -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="canonical" href="https://wamsware.com"/>
-    <title>Wamsware LLC</title>
-
-    <!-- Locally defined stylesheets-->
-    <link rel="stylesheet" href="style.css"/>
-
-    <!-- Boostrap: Minified stylesheets -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-
-    <!-- FontAwsome: Minified stylessheets --></FontAwsome:>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <!-- JQuery: Minified Javascript -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-
-    <!-- Popper: Minified Javascript-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-
-    <!-- Boostrap: CSS and Javascript from Content Delivery Network (CDN) -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    
-  </head>
-  
-  <body>
-    
-    <!-- Navigation Bar -->
-    <section id="nav-bar"> 
-       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-         <a class="navbar-brand" href="#">
-          <img src="https://www.wamsware.com/img/wamsware_banner_logo.png">
-        </a>
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-           <span class="navbar-toggler-icon"></span>
-         </button>
-         <div class="collapse navbar-collapse" id="navbarNav">
-           <ul class="navbar-nav ml-auto">
-            
-             <li class="nav-item active">
-               <a class="nav-link" href="#about">ABOUT</a>
-             </li>
-            
-             <li class="nav-item">
-               <a class="nav-link" href="https://github.com/wamswareapps">PRODUCTS</a>
-             </li>
-             <li class="nav-item">
-               <a class="nav-link" href="https://projects.wamsware.com">PROJECTS</a>
-             </li>
-           </ul>
-         </div>
-       </nav>
-    </section>
-    
-   <!-- SLIDER -->
-    <div id="slider">
-       <div id="headerSlider" class="carousel slide" data-ride="carousel">
-         <ol class="carousel-indicators">
-           <li data-target="#headerSlider" data-slide-to="0" class="active"></li>
-           <li data-target="#headerSlider" data-slide-to="1"></li>
-         </ol>
-         <div class="carousel-inner">
-           <div class="carousel-item active">
-
-            <!--  img-fluid:  Makes image responsive(Boostrap 4)
-                  d-block:    
-            -->
-             <img class="d-block img-fluid" src="https://www.wamsware.com/img/products.jpg">
-             <div class="carousel-caption">
-                 <a href="https://github.com/wamswareapps"><h2>PRODUCTS</h2></a>
-             </div>
-           </div>
-           <div class="carousel-item">
-             <img class="d-block img-fluid" src="https://www.wamsware.com/img/projects.jpg">
-             <div class="carousel-caption">
-                 <a href="https://projects.wamsware.com"><h2>PROJECTS</h2></a>
-             </div>
-           </div>
-         </div>
-         <a class="carousel-control-prev" href="#headerSlider" role="button" data-slide="prev">
-           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-           <span class="sr-only">Previous</span>
-         </a>
-         <a class="carousel-control-next" href="#headerSlider" role="button" data-slide="next">
-           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-           <span class="sr-only">Next</span>
-         </a>
+<body id="page-top">
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark" id="mainNav">
+        <div class="container"><a class="navbar-brand" href="#page-top"><img src="assets/img/wamsware_banner_logo.png"></a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" data-toogle="collapse" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="nav navbar-nav ml-auto text-uppercase">
+                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#products">products</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#about">ABOUT</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#contact">CONTACT US</a></li>
+                </ul>
+            </div>
         </div>
-    </div>
-   
-    <!--ABOUT-->
-    <section id="about">
+    </nav>
+    <header class="masthead" style="background-image:url('assets/img/projects.jpg');">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <h2>About Us</h2>
-                    <div class="about-content">
-                        Wamsware LLC provides mobile apps and web pages for productivity, hobbies and personal improvement.
-                    </div>
-                 <a href="mailto:wamswarecontact@gmail.com">Email: wamswarecontact@gmail.com</a>
-<!--                     <button type="button" class="btn btn-primary">Read more >></button> -->
+            <div class="intro-text">
+                <div class="intro-lead-in"><span>Software For You</span></div>
+                <div class="intro-heading text-uppercase"><span>Wamsware LLC</span></div><a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" role="button" href="#about">Tell me more</a></div>
+        </div>
+    </header>
+    <section id="products">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-12 text-center">
+                    <h2 class="text-uppercase section-heading">Products</h2>
+                    <h3 class="text-muted section-subheading">Mobile Apps</h3>
                 </div>
+                <div class="col"><span class="fa-stack fa-4x"><img src="assets/img/impact_score_icon.png"></span>
+                    <h4 class="section-heading">Impact Score</h4>
+                    <p class="text-muted">A positive impact on the world around you enhances your life as well as the lives of others. Impact Score provides you with the opportunity to measure your impact each day in order to strengthen your character and improve your life.</p>
                 </div>
-                <div class="col-md-6">
-                    
+                <div class="col"><span class="fa-stack fa-4x"><img src="assets/img/arrival_notice_icon.png"></span>
+                    <h4 class="section-heading">Arrival Notice</h4>
+                    <p class="text-muted"><br>When you arrive at your destination, Arrival Notice will send a text message automatically so you don't have to!<br><br></p>
                 </div>
             </div>
         </div>
     </section>
- 
-  </body>
-  
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="text-uppercase">THE COMPANY</h2>
+                    <h3 class="text-muted section-subheading">Wamsware LLC</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-group timeline">
+                        <li class="list-group-item">
+                            <div class="timeline-image"><img class="rounded-circle img-fluid timeline-image" src="assets/img/wams_ware_logo.png"></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>2019</h4>
+                                    <h4 class="subheading">Our Humble Beginnings</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Founded by James Walmsley in order to provide the appropriated framework to publish websites and mobile apps to the public user community</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item timeline-inverted">
+                            <div class="timeline-image"><img class="rounded-circle img-fluid timeline-image" src="assets/img/impact_score_icon.png"></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>August 2019</h4>
+                                    <h4 class="subheading">Impact Score Published on Google Play</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Our first mobile app, Impact Score, was published &nbsp;to the Google Play store as the first Wamsare LLC mobile application to be released to the public marketplace.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="timeline-image"><img class="rounded-circle img-fluid timeline-image" src="assets/img/arrival_notice_icon.png"></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>September 2019</h4>
+                                    <h4 class="subheading">Arrival Notice Published on Google Play</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Arrival Notice is a mobile app that automatically sends a text message to a designated recipient when you arrive at a specified location.<br><br></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item timeline-inverted">
+                            <div class="timeline-image">
+                                <h4 class="h4" font-family="&quot;Oswald&quot;, Sans, Arial, sans-serif!important"><strong>MORE</strong><br><strong>TO</strong><br><strong>COME</strong><br></h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="team" class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="text-uppercase">ABOUT US</h2>
+                    <h3 class="text-muted section-subheading"><br>Wamsware LLC provides mobile apps and web pages for productivity, hobbies and personal improvement.<br><br></h3>
+                </div>
+                <div class="col">
+                    <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/JamesFounderPhto.png">
+                        <h4>James Walmsley</h4>
+                        <p class="text-muted">Founder</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item"><a href="www.linkedin.com/in/jameswalmsleycsm"><i class="fa fa-linkedin"></i></a></li>
+                            <li class="list-inline-item"><a href="https://github.com/wamswareapps"><i class="fa fa-star fa-github"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" style="background-image:url('assets/img/map-image.png');">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="text-uppercase section-heading">Contact Us</h2>
+                    <h3 class="section-subheading text-muted">Use the form below or email us directly at wamswarecontact!@gmail.com</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form id="contactForm" name="contactForm" novalidate="novalidate" enctype="text/plain" method="GET" action="mailto:wamswarecontact@gmail.com">
+                        <div class="form-group"><input class="form-control" type="text" id="name" placeholder="Your Name *" required="" name="subject"><small class="form-text text-danger flex-grow-1 help-block lead"></small></div>
+                        <div class="form-group"><textarea class="form-control" id="message" placeholder="Your Message *" required="" name="body" type="text"></textarea><small class="form-text text-danger help-block lead"></small></div>
+                        <div class="form-row">
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div><button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit" onclick="bind_form_to_email()">Send Message</button></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col"><span class="copyright">Copyright&nbsp;© Wamsware LLC</span></div>
+            </div>
+        </div>
+    </footer>
+    <div class="modal fade portfolio-modal text-center" role="dialog" tabindex="-1" id="portfolioModal1">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <div class="modal-body">
+                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p><img class="img-fluid d-block mx-auto" src="portfolio/1-full.jpg">
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae
+                                        cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <ul class="list-unstyled">
+                                        <li>Date: January 2017</li>
+                                        <li>Client: Threads</li>
+                                        <li>Category: Illustration</li>
+                                    </ul><button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i><span>&nbsp;Close Project</span></button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade portfolio-modal text-center" role="dialog" tabindex="-1" id="portfolioModal2">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <div class="modal-body">
+                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p><img class="img-fluid d-block mx-auto" src="portfolio/2-full.jpg">
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae
+                                        cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <ul class="list-unstyled">
+                                        <li>Date: January 2017</li>
+                                        <li>Client: Threads</li>
+                                        <li>Category: Illustration</li>
+                                    </ul><button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i><span>&nbsp;Close Project</span></button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade portfolio-modal text-center" role="dialog" tabindex="-1" id="portfolioModal3">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <div class="modal-body">
+                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p><img class="img-fluid d-block mx-auto" src="portfolio/3-full.jpg">
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae
+                                        cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <ul class="list-unstyled">
+                                        <li>Date: January 2017</li>
+                                        <li>Client: Threads</li>
+                                        <li>Category: Illustration</li>
+                                    </ul><button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i><span>&nbsp;Close Project</span></button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade portfolio-modal text-center" role="dialog" tabindex="-1" id="portfolioModal4">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <div class="modal-body">
+                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p><img class="img-fluid d-block mx-auto" src="portfolio/4-full.jpg">
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae
+                                        cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <ul class="list-unstyled">
+                                        <li>Date: January 2017</li>
+                                        <li>Client: Threads</li>
+                                        <li>Category: Illustration</li>
+                                    </ul><button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i><span>&nbsp;Close Project</span></button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade portfolio-modal text-center" role="dialog" tabindex="-1" id="portfolioModal5">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <div class="modal-body">
+                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p><img class="img-fluid d-block mx-auto" src="portfolio/5-full.jpg">
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae
+                                        cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <ul class="list-unstyled">
+                                        <li>Date: January 2017</li>
+                                        <li>Client: Threads</li>
+                                        <li>Category: Illustration</li>
+                                    </ul><button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i><span>&nbsp;Close Project</span></button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade portfolio-modal text-center" role="dialog" tabindex="-1" id="portfolioModal6">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <div class="modal-body">
+                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p><img class="img-fluid d-block mx-auto" src="portfolio/6-full.jpg">
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae
+                                        cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <ul class="list-unstyled">
+                                        <li>Date: January 2017</li>
+                                        <li>Client: Threads</li>
+                                        <li>Category: Illustration</li>
+                                    </ul><button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i><span>&nbsp;Close Project</span></button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="assets/js/agency.js"></script>
+    <script src="assets/js/bind_form_to_email.js"></script>
+</body>
+
 </html>

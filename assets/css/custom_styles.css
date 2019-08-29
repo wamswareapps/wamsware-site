@@ -1,0 +1,19 @@
+header.masthead {
+  text-align: center;
+  color: #212529;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 50%;
+  background-size: cover;
+}
+
+.btn-primary {
+  color: #212529;
+  background-color: #fed136;
+  border-color: #fed136;
+}
+
+h4 {
+  color: #212529;
+}
+
